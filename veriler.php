@@ -7,12 +7,6 @@
     
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
    
-    if( mysqli_connect_errno()){
-        exit('Fail: ' . mysqli_connect_errno());
-    
-    }     
-
-   
 ?>
 <html>
 <head>
