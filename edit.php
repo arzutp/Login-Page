@@ -5,10 +5,7 @@
     $password = '';
     $dbname = 'phplogin';   
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);  
-    if( mysqli_connect_errno()){
-        exit('Fail: ' . mysqli_connect_errno());
-    
-    }    
+      
 
     //güncelleme yapılan kısım
     if(isset($_GET['username'])){  //tabloya istenen verileri gönderiyoruz
