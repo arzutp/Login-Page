@@ -10,9 +10,7 @@ $dbname = 'phplogin';
 $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 
 //$con = mysqli_connect($DATABASE_HOST, $DATABASE_NAME, $DATABASE_PASS, $DATABASE_USER);
-if( mysqli_connect_errno()){
-    exit('Fail: ' . mysqli_connect_errno());
-}
+
 
 //veritabanına bağlanıyoruz ve kontrol ediyoruz
 
